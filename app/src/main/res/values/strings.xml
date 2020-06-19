@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Droid Caffe</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_label_1">Desserts</string>
+    <string name="tab_label_2">Pastries</string>
+    <string name="tab_label_3">Stores</string>
+    <string name="dessert_recipes">Dessert Recipes</string>
+    <string name="browse_recipes">Browse Recipes</string>
+    <string name="prep_cook_time_2hrs"><![CDATA[Prep & cook time: 2hrs]]></string>
+    <string name="recipe_short_description">Recipe short description</string>
+    <string name="recipe_title">Recipe Title</string>
+    <string name="image_of_item">Image of item</string>
+    <string name="pastries_recipe_fragment">Pastries Recipe Fragment</string>
+    <string name="store_fragment">Store Fragment</string>
+    <string name="how_to_prepare_donuts">How to prepare donuts</string>
+    <string name="droid_caffe_store">Droid Caffe Store</string>
+    <string name="rate_our_stores">Rate our stores</string>
+    <string name="image_of_store">Image of store</string>
+    <string name="store_name">Store name</string>
+    <string name="open_daily_from_7_00am">Open Daily from 7:00am</string>
+    <string name="store_description">Store description</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="share">Share</string>
+    <string name="pastry_recipies">Pastry Recipies</string>
+
+    <array name="desserts_images">
+        <item>@drawable/donut</item>
+        <item>@drawable/ice_cream</item>
+        <item>@drawable/sandwich</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/ice_cream</item>
+        <item>@drawable/sandwich</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/ice_cream</item>
+        <item>@drawable/sandwich</item>
+    </array>
+    <string-array name="dessert_title">
+        <item>Donut</item>
+        <item>Ice cream</item>
+        <item>Sandwich</item>
+        <item>Donut</item>
+        <item>Ice cream</item>
+        <item>Sandwich</item>
+        <item>Donut</item>
+        <item>Ice cream</item>
+        <item>Sandwich</item>
+    </string-array>
+    <string-array name="dessert_description">
+        <item>Donuts are glazed and sprinkled with candy</item>
+        <item>Ice cream with chocolate and vanilla filling</item>
+        <item>This is not a dessert. I do not know what it is doing here</item>
+        <item>Donuts are glazed and sprinkled with candy</item>
+        <item>Ice cream with chocolate and vanilla filling</item>
+        <item>This is not a dessert. I do not know what it is doing here</item>
+        <item>Donuts are glazed and sprinkled with candy</item>
+        <item>Ice cream with chocolate and vanilla filling</item>
+        <item>This is not a dessert. I do not know what it is doing here</item>
+    </string-array>
+
+
+    <array name="pastries_images">
+        <item>@drawable/chocolate_cake</item>
+        <item>@drawable/cookie</item>
+        <item>@drawable/paris_breast</item>
+        <item>@drawable/chocolate_cake</item>
+        <item>@drawable/cookie</item>
+        <item>@drawable/paris_breast</item>
+        <item>@drawable/chocolate_cake</item>
+        <item>@drawable/cookie</item>
+        <item>@drawable/paris_breast</item>
+    </array>
+    <string-array name="pastries_title">
+        <item>Chocolate Cake</item>
+        <item>Cookie</item>
+        <item>Paris breast</item>
+        <item>Chocolate Cake</item>
+        <item>Cookie</item>
+        <item>Paris breast</item>
+        <item>Chocolate Cake</item>
+        <item>Cookie</item>
+        <item>Paris breast</item>
+    </string-array>
+    <string-array name="pastries_description">
+        <item>Sweet and tasty chocolate cake for you</item>
+        <item>Cookies freshly baked by chef Amondi</item>
+        <item>A foreign taste to enjoy</item>
+        <item>Sweet and tasty chocolate cake for you</item>
+        <item>Cookies freshly baked by chef Amondi</item>
+        <item>A foreign taste to enjoy</item>
+        <item>Sweet and tasty chocolate cake for you</item>
+        <item>Cookies freshly baked by chef Amondi</item>
+        <item>A foreign taste to enjoy</item>
+    </string-array>
+
+    <array name="store_images">
+        <item>@drawable/galleria</item>
+        <item>@drawable/garden_city</item>
+        <item>@drawable/the_hub</item>
+        <item>@drawable/two_rivers</item>
+    </array>
+    <string-array name="store_names">
+        <item>Galleria</item>
+        <item>Garden City</item>
+        <item>The Hub</item>
+        <item>Two Rivers</item>
+    </string-array>
+    <string-array name="store_descriptions">
+        <item>
+            Located at the Junction of Magadi and Langata road, Galleria Shopping Mall brings you a selection of
+            over 70 outlets of the most renowned brands in Shopping, Dining and Lifestyle choices
+        </item>
+        <item>
+            A large and vibrant mall featuring a variety of shops, services and eateries, plus a 3D cinema
+        </item>
+        <item>
+            A large shopping, recreation and entertainment mall in Karen, an affluent suburb of the Kenyan capital
+            Nairobi
+        </item>
+        <item>
+            Landmark contemporary shopping center with 200 plus stores, multiple eateries and an amusement park
+        </item>
+
+    </string-array>
+</resources>

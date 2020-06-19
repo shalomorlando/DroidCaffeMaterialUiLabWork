@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/store_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/css_grey"
+            android:layout_marginBottom="0dp"
+            android:paddingBottom="10dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/image_of_store" />
+
+        <TextView
+            android:id="@+id/store_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/store_image"
+            android:background="@color/css_grey"
+            android:padding="10dp"
+            android:layout_marginTop="0dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            android:text="@string/store_name"
+            android:textColor="#FFFF00"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:id="@+id/store_operation_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/store_title"
+            android:layout_marginTop="4dp"
+            android:padding="10dp"
+            android:text="@string/open_daily_from_7_00am"
+            android:textColor="?android:textColorSecondary"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:drawableStart="@drawable/ic_open_duration"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        <TextView
+            android:id="@+id/store_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/store_operation_time"
+            android:layout_marginTop="3dp"
+            android:padding="8dp"
+            android:text="@string/store_description"
+            android:textColor="@color/navy_blue"
+            android:textStyle="italic"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <!--Adding a horizontal line-->
+
+        <View
+            android:id="@+id/store_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/store_description"
+            android:layout_marginTop="3dp"
+            android:background="@color/css_grey"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/store_divider"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="8dp"
+            android:progressTint="@color/corol"
+            android:progressBackgroundTint="@color/colorAccent"
+            android:numStars="5"
+            android:rating="3"
+            android:stepSize="0.5"
+            android:isIndicator="false"
+            />
+
+
+        <TextView
+            android:id="@+id/store_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratingBar"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="40dp"
+            android:padding="3dp"
+            android:text="@string/like"
+            android:textColor="@color/navy_blue"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:drawableStart="@drawable/ic_thumb_up"
+            android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <TextView
+            android:id="@+id/store_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratingBar"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="40dp"
+            android:layout_toEndOf="@+id/store_like"
+            android:padding="3dp"
+            android:text="@string/comment"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/navy_blue"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/ic_comment"
+            android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <TextView
+            android:id="@+id/store_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratingBar"
+            android:layout_toEndOf="@+id/store_comment"
+            android:layout_marginEnd="10dp"
+            android:layout_centerVertical="true"
+            android:padding="3dp"
+            android:text="@string/share"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/navy_blue"
+            android:textStyle="bold"
+            android:drawableStart="@drawable/ic_share"
+            android:theme="@style/ThemeOverlay.AppCompat.Light" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

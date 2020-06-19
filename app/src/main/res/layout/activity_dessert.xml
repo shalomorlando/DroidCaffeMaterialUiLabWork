@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DessertActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dessert_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/dessert_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@color/css_grey"
+                android:paddingBottom="10dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/image_of_item" />
+
+            <TextView
+                android:id="@+id/dessert_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/dessert_image"
+                android:padding="10dp"
+                android:layout_marginTop="4dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"
+                android:text="@string/recipe_title"
+                android:textColor="#FFFF00"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+            <TextView
+                android:id="@+id/dessert_prep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dessert_title"
+                android:layout_marginTop="4dp"
+                android:padding="10dp"
+                android:text="@string/prep_cook_time_2hrs"
+                android:textColor="?android:textColorSecondary"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:drawableStart="@drawable/ic_prep_time"
+                android:theme="@style/ThemeOverlay.AppCompat.Light"/>
+
+            <!--Adding a horizontal line-->
+            <View
+                android:id="@+id/dessert_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/dessert_prep"
+                android:background="@color/css_grey"/>
+
+            <TextView
+                android:id="@+id/dessert_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dessert_divider"
+                android:layout_marginTop="3dp"
+                android:padding="8dp"
+                android:text="@string/recipe_short_description"
+                android:textColor="@color/navy_blue"
+                android:textStyle="italic"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dessert_cardView">
+
+        <TextView
+            android:id="@+id/how_to_prepare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/how_to_prepare_donuts"
+            android:textStyle="bold"
+            android:textColor="@color/navy_blue"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
