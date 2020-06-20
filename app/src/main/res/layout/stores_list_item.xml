@@ -99,7 +99,7 @@
             android:textColor="@color/navy_blue"
             android:textStyle="bold"
             android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
-            android:drawableStart="@drawable/ic_thumb_up"
+            android:drawableStart="@drawable/ic_favorite"
             android:theme="@style/ThemeOverlay.AppCompat.Light" />
 
         <TextView
