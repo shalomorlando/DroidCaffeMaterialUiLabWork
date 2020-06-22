@@ -9,8 +9,23 @@
         android:roundIcon="@mipmap/ic_my_app_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DessertActivity"></activity>
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".CocktailsActivity"
+            android:label="@string/cocktails"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".PizzaActivity"
+            android:label="@string/pizzas"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PastaActivity"
+            android:label="@string/pasta"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DessertActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

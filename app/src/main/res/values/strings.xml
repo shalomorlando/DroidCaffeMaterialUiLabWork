@@ -2,7 +2,7 @@
     <string name="app_name">Droid Caffe</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="tab_label_1">Desserts</string>
@@ -28,13 +28,17 @@
     <string name="share">Share</string>
     <string name="pastry_recipies">Pastry Recipies</string>
     <string name="pizza">Pizza</string>
-    <string name="pasta">Pasta</string>
     <string name="contact_us">Contact us</string>
     <string name="about_us">About us</string>
     <string name="share_app">Share App</string>
     <string name="shalom_otieno_strathmore_edu">shalom.otieno@strathmore.edu</string>
     <string name="shalom_orlando">Shalom Orlando</string>
     <string name="cocktails">Cocktails</string>
+    <string name="pizzas">Pizzas</string>
+    <string name="pasta">Pasta</string>
+    <string name="enjoy_scrumptious_pasta_from_different_outlets">Enjoy scrumptious pasta from different outlets</string>
+    <string name="who_doesn_t_want_the_best_italian_pizza">Who doesn\'t want the best Italian pizza</string>
+    <string name="a_drink_to_keep_your_systems_running_and_cool">Enjoy a drink to keep your systems running and cool</string>
 
     <array name="desserts_images">
         <item>@drawable/donut</item>

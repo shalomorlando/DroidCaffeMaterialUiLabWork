@@ -43,13 +43,16 @@ public class MainActivity extends AppCompatActivity {
 
                 switch(item.getItemId()){
                     case R.id.nav_pizza:
-
+                        Intent pizzaIntent = new Intent(MainActivity.this, PizzaActivity.class);
+                        startActivity(pizzaIntent);
                         break;
                     case R.id.nav_cocktails:
-
+                        Intent cocktailsIntent = new Intent(MainActivity.this, CocktailsActivity.class);
+                        startActivity(cocktailsIntent);
                         break;
                     case R.id.nav_pasta:
-
+                        Intent pastaIntent = new Intent(MainActivity.this, PastaActivity.class);
+                        startActivity(pastaIntent);
                         break;
                     case R.id.contact_us:
                         Uri myUri = Uri.parse("tel:0712457366");
